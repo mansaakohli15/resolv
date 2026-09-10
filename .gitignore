@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Raw / large data (not tracked -- see README "Reproducing from scratch")
+data/raw/**
+*.zip
+*.csv.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model / cache files
+*.pt
+*.bin
+*.ckpt
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+
+# Large generated dataset artifacts
+data/processed/amazonhelp_conversations.pkl

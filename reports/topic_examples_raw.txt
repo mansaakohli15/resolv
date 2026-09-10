@@ -1,0 +1,326 @@
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: delivery_timing  (matches: 18701, 22.74% of first messages) =====
+
+--- component 334544 ---
+CUSTOMER: #poorservice @115821 @AmazonHelp 1st u didn't give me delivery &amp;now delaying my refund. What the hell is this. https://t.co/36vECCbVbL
+AMAZONHELP: @206697 I see that the refund has been initiated as per the screenshot that you've shared. You may want to check with your bank. ^SG
+
+--- component 648777 ---
+CUSTOMER: Amazon order update, despite being home all day waiting on the package amazon carrier claims to have tried delivery TWICE. Uggh.
+AMAZONHELP: @293989 Sorry to hear that. Get in touch here:  https://t.co/hApLpMlfHN  and we'll be happy to help. ^RS
+
+--- component 2662563 ---
+CUSTOMER: Well @115821 Flex missed another delivery schedule. That's 5 delayed or lost pkgs out of 14. While USPS &amp; UPS are 0 loss/delayed out of nearly 100 pkgs delivered. Postman even found 1 pkg in bushes that Flex "delivered". 
+Seems Flex QoS varys radically. Bad sig-to-noise ratio. https://t.co/xlQ1BZDi01
+AMAZONHELP: @789295 So sorry to hear this! I'd like a member of my team to take a closer look so please fill out the information requested here: https://t.co/CjT4uWUWbC as soon as you can. ^BG
+
+--- component 901165 ---
+CUSTOMER: @AmazonHelp was supposed to get a package yesterday.  Was told could not deliver.  I was home all night and it was never attempted.
+AMAZONHELP: @356983 Sorry to hear about this. Please contact us directly here: https://t.co/hApLpMlfHN and we'll look into it. ^PK
+
+--- component 1149611 ---
+CUSTOMER: @AmazonHelp  I ordered pigeon gas stove with order I'd 171-7614411-4707553 on and updated it delivered but I haven't received the it yet.
+AMAZONHELP: @119532 Sorry to hear that, Nirbhay. We have responded to your query here: https://t.co/zPqUqwMzlh. Please check. 1/2 ^NK
+
+--- component 195729 ---
+CUSTOMER: @115850 I have not received Order #402-5024592-7887529 put on September 18, 2017. In status, this shows delivered.
+AMAZONHELP: @170834 That's unusual. Kindly report it here: https://t.co/vlvfJr4nN9 and we'll look into this right away. ^HK
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: order_tracking  (matches: 6841, 8.32% of first messages) =====
+
+--- component 1217073 ---
+CUSTOMER: @115821 what number do I call if a package was sent to an address Im not at?
+AMAZONHELP: @433130 We'll be glad to help. You can contact us by phone or chat here:  https://t.co/hApLpMlfHN ^CM
+
+--- component 2692622 ---
+CUSTOMER: .@AmazonHelp How can a package be "carrier delayed" 2 days in a row, when it's "out for delivery" from somewhere 5-10 miles from my house. It's now at least 2 days late from when it was supposed to arrive with my prime delivery. Not acceptable.
+AMAZONHELP: @427156 I'm very sorry for the delay, Jeff. Will you tell us the carrier for your order? They will be listed here: https://t.co/Y5jpI9gRhE We'd love to help out in any way possible. ^SK
+
+--- component 822740 ---
+CUSTOMER: The @115830 app is saying the parcel was handed to me. I was at home during the time of the supposed delivery and have nothing.
+AMAZONHELP: @337610 Hi, have you been able to check with close neighbours &amp; safe places around the property: https://t.co/nLUP5ghWpy ^TS
+
+--- component 1333853 ---
+CUSTOMER: @115821 I️ didn’t get my prime package today as promised. What part of the game is this? I️ feel betrayed.
+AMAZONHELP: @448572 I'm sorry you didn't get your package! What does tracking currently show? Please check here: https://t.co/RasZZ0J1h4 ^BE
+
+--- component 1994162 ---
+CUSTOMER: @115821 i made some orders on the 1st of October and i am yet to receive them. Tracking no TBA472370592000. 1 of my orders was not included https://t.co/oJUWMBxAN6
+AMAZONHELP: @522433 Hi, sorry to see that. Were the order fulfilled by Amazon or a 3rd Party Seller: https://t.co/Y5jpI9gRhE? ^JJ
+
+--- component 788095 ---
+CUSTOMER: @AmazonHelp @115850  pickup for Pickup Tracking ID: 
+710393149926 didn't happen today.Please check.
+AMAZONHELP: @159044 Our apologies. Please help us with more information, here: https://t.co/vlvfJr4nN9 and we'll get back. (1/2)
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: refund_return  (matches: 3964, 4.82% of first messages) =====
+
+--- component 889521 ---
+CUSTOMER: @AmazonHelp Accidentally bought George Michael's 'Ladies And Gentlemen...'. Please can you arrange a refund? I haven't downloaded it. Thanks
+AMAZONHELP: @354158 Oh my! We'd be happy to help. Please reach us via phone or chat here: https://t.co/JzP7hlA23B so we can take a look! ^AB
+
+--- component 1237412 ---
+CUSTOMER: Still waiting for the promised refund for an order I NEVER made. Amazon have stolen my money. Disgraceful behaviour. Thieves. @115830 @115821 @AmazonHelp #Amazon #AmazonUK
+AMAZONHELP: @235728 Hi, I'm very sorry to hear this. When were you advised the refund would be issued? Refunds can take 5 to 7 days for your bank to process after they are issued by us. ^KK
+
+--- component 1490530 ---
+CUSTOMER: @115821 I have returned a parcel to XX20 1DD which was delivered 27.10.17 but have not yet received refund, please advise
+AMAZONHELP: @500583 Hi there, just to clarify, were you returning an item sold by a third party seller or by Amazon: https://t.co/aaDyEz1VgE? ^DW
+
+--- component 1473098 ---
+CUSTOMER: @115850 Your seller will refund only if I give a good review . Is this a amazon policy ?? Plz deal with such fraud seller
+AMAZONHELP: @496194 That is unusual, Anish. Did you try reaching out to us via: https://t.co/tBtfndUCho in regard to this ? ^KS
+
+--- component 2601004 ---
+CUSTOMER: Amazon charged me for shit I didn’t sign up for and wanted to refund me a promotional certificate. TF.
+AMAZONHELP: @774922 I'm sorry to hear about this! Without providing any account details, can you give us more information on the issue? ^JS
+
+--- component 1137127 ---
+CUSTOMER: @115850 how to return product if color is not same?
+AMAZONHELP: @414565 You may go ahead with the return/replacement from here: https://t.co/9OujUcTw7D. ^AG
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: wrong_item  (matches: 1172, 1.42% of first messages) =====
+
+--- component 1475787 ---
+CUSTOMER: Hey @118919 send someone from your end so I can shove these broken pieces of ketchup bottles that you sent me in your ass! @115821 https://t.co/hZnTCC34yT
+AMAZONHELP: @496825 I'm terribly sorry for this situation. Have you reported this to our support team here: https://t.co/vlvfJr4nN9 ? ^MP
+
+--- component 1477107 ---
+CUSTOMER: So @115821 @AmazonHelp sent out the wrong item and replaced it with the wrong item. I ordered jeep 5 lug spacers! They sent Toyota 6...twice https://t.co/JEHdSaXJXY
+AMAZONHELP: @326485 I'm sorry that we sent the wrong item twice! Please contact us here: https://t.co/hApLpMlfHN so we can get this sorted. ^TR
+
+--- component 274241 ---
+CUSTOMER: @AmazonHelp Why does Amazon ship beautiful, new books with no protection whatsoever inside a cardboard box? Amazon used to add packing material around the book to cushion the blows. Now books arrive with crushed corners and damaged dust jackets. I won't be ordering any more now.
+AMAZONHELP: @191055 So sorry for the trouble! We appreciate your feedback! Have you had the chance to provide more details here: https://t.co/IoQblaYNdA?
+
+--- component 1024394 ---
+CUSTOMER: @115830 rang up twice that you sent the wrong order. U Promised you'd hand check it yourself, &amp; 3rd time again its WRONG! Sort it out!
+AMAZONHELP: @387203 Sorry for the trouble, Sophie. It seems this needs to be investigated! Please reach us here: https://t.co/JzP7hlA23B ^AB
+
+--- component 1301165 ---
+CUSTOMER: Search functionality in @116618 seems to be broken. Had to navigate through the pages to find what I was looking for!! https://t.co/CfqSKmwaiG
+AMAZONHELP: @138297 This could have happened as the was no space between 123 when you searched for the movie. ^KS 1/2
+
+--- component 606157 ---
+CUSTOMER: @115830 is there a reason my gift has been left undelivered and I haven't been informed?! "Damaged in transit" or "address not located" - is this not something you communicate to customers? #ridiculousservice
+AMAZONHELP: @282213 Hi Lauren, sorry to hear that. If you check your tracking here: https://t.co/aaDyEz1VgE can you tell me what the latest update on your order was? ^TI
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: account_login  (matches: 3108, 3.78% of first messages) =====
+
+--- component 2599265 ---
+CUSTOMER: @115821 getting money taken out of my account from an amazon prime membership that I don’t own..
+AMAZONHELP: @774535 Oh no, sorry to hear. Have you checked with any household or family members that may have used your payment card previously on their Amazon account and accidentally signed up for Prime? ^ES
+
+--- component 869051 ---
+CUSTOMER: @AmazonHelp I got an email but it shows that v don't have any issue with my account while I have given every possible particulars..
+AMAZONHELP: @219040 We've responded to your concern here: https://t.co/rSLZPc4Byk please check. ^KA
+
+--- component 149344 ---
+CUSTOMER: @115833 Trying to set up for the 1st time but the app says my Amazon password is incorrect. no. it's not. any ideas?
+AMAZONHELP: @158254 Hey Dave. Please reach out - https://t.co/JzP7hlA23B a member of our digital team will be happy to assist. Keep us posted. ^TP
+
+--- component 259112 ---
+CUSTOMER: Really want to stop shopping with @115821 because my account is always being compromised. DO 👏🏾 BETTER 👏🏾
+AMAZONHELP: @186976 We're sorry to hear about this, Taj! We take account security very seriously. Please contact us: https://t.co/jzvkhdlrK5. ^SD
+
+--- component 313814 ---
+CUSTOMER: Unknown transaction every month since June . Phoned @116618 totally unhelpful as they say nothing on my account 👎🏻
+AMAZONHELP: @201204 Did we say we'll be investigating it further? Is the dollar amount the same each month. Is there a description for it? ^MG
+
+--- component 2637008 ---
+CUSTOMER: Real shabby service from @115850 . Cashback amount not credit to account Ord: 171-2238443-1013141. Now they are saying you cant avail two offers at once.Didnt even receive an update from the customer service. #dissapointed #angry #Amazon
+AMAZONHELP: @783519 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. 2/2 ^KK
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: prime_membership  (matches: 2639, 3.21% of first messages) =====
+
+--- component 2156716 ---
+CUSTOMER: @119625 Now no more rushing to the theatres when amazon prime is in our smartphones being prime user its full worth the money with latest movies every week #thanks amazon😀😀
+AMAZONHELP: @672083 We are glad to see you happy with our content, watch out for more new releases. ^MJ
+
+--- component 1067296 ---
+CUSTOMER: Hola @AmazonHELP si ya cuentas con Amazon Prime. 
+¿Prime Video está pagado o es un servicio aparte?
+AMAZONHELP: @397665 Hola Nono. Te informamos que tu suscripción a Amazon Prime te permite acceder a películas y series de Prime Video. (1/2)
+
+--- component 2708519 ---
+CUSTOMER: @2005 @AmazonHelp  what is d use of AMAZON PRIME when ur customer satisfaction z nt so prime.
+Being a prime member I shud get my products on prime schedule time(27 Nov) but still not have my product.I paid you 
+Almost 1000 bucks bt still you r nt committed to your service
+AMAZONHELP: @791115 I understand how upsetting it could be. We'd like to help you. Please share your details from the secured link provided earlier and we will get in touch with you. Appreciate your cooperation. ^BS
+
+--- component 1038462 ---
+CUSTOMER: @121284 will Alexa be able to control amazon prime video on a smart TV?
+AMAZONHELP: @390566 We haven't made an announcement on that yet. Keep checking the Echo page for more info. ^HD
+
+--- component 2805358 ---
+CUSTOMER: @115821 why do you use Intelcom now for Canada? My prime membership is nearly useless to me now
+AMAZONHELP: @822359 I'm sorry for the poor experience. We'd like to help sort this out, please give us a call here: https://t.co/Q7Ftz6nj80 ^CO
+
+--- component 1465801 ---
+CUSTOMER: Im drove...amazon prime got me this morning 😩 i gotta stop playing with these free trials.. https://t.co/TQfftfaK0y
+AMAZONHELP: @494354 You can cancel it here https://t.co/ztwf16vGJu ^KM
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: payment_charge  (matches: 1750, 2.13% of first messages) =====
+
+--- component 1275703 ---
+CUSTOMER: Boycott @115850  Delivered my product somewhere without my consent. Amazon escalation team took no charge of it. Pathetic service
+AMAZONHELP: @446938 Looks like you've had an unpleasant experience with us. Could you please elaborate what went wrong? We would like to help. ^SM
+
+--- component 2761885 ---
+CUSTOMER: @AmazonHelp bonjour mon colis devait être livré aujourd'hui mais relais colis me dit ne pas l'avoir pris en charge dans leur réseau. Vous avez des informations ?
+AMAZONHELP: @812017 N'ayant pas accès à votre compte via twitter, je vous suggère de vérifier cela avec notre SAV via: https://t.co/hgIrz98cdI ^FT
+
+--- component 1083126 ---
+CUSTOMER: I DONT EVEN HAVE AN @115821 PRIME ACCOUNT AND THEY CHARGED ME $107 jfkshaifkak so pissed off right now 😭👿👿
+AMAZONHELP: @401606 I'm sorry for the unexpected charge! You can view and cancel your Prime membership, here: https://t.co/SIHlRjry4g ^EB
+
+--- component 1246425 ---
+CUSTOMER: @AmazonHelp @119038 Hi, I have a Spanish Amazon Prime account. After linking it with my Twitch one, will I get charged anything? Cheers.
+AMAZONHELP: @440240 The answers you seek can be found here:  https://t.co/IKWjX0QHDK  ^CH
+
+--- component 1714570 ---
+CUSTOMER: @115850 my payment was failed twice ,tho second tme pymnt was deducted.404-3735740-2619510 .#amazonbadservice
+AMAZONHELP: @414384 Kindly contact our team here: https://t.co/vlvfJr4nN9 and our team will check this for you. (1/2) ^GK
+
+--- component 1048441 ---
+CUSTOMER: Cancelled my order like a week ago, payment made online, havent received the cash yet! @115850 if you could help me with the return.
+AMAZONHELP: @393008 Sorry for the delay in refund. Please report this to our support team here: https://t.co/TdDksLo6Mf &amp; we'll look into this. ^HD
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: cancel_order  (matches: 238, 0.29% of first messages) =====
+
+--- component 1506498 ---
+CUSTOMER: @228164 @115850 @AmazonHelp I want to cancel my order which I placed by mistake. I am not finding cancel order icon. Help ASAP! https://t.co/DUqMTPjjOm
+AMAZONHELP: @283699 Please get in touch with our team using this link: https://t.co/rS49hgaADF and we'll look forward to assisting you. ^AK (1/2)
+
+--- component 1993909 ---
+CUSTOMER: @AmazonHelp 3rd day in a row delivery failed - continuous after biz hours attempts. Customer service won't cancel my order. I don't have my items. What am I supposed to do here.
+AMAZONHELP: @632161 I'm so sorry for the frustration! Who is the carrier for this order? You can view that here: https://t.co/Y5jpI9gRhE ^DG
+
+--- component 996256 ---
+CUSTOMER: Dear @115850 10% discount for SBI cards has not deduced.pls deduce it or if not possible cancel my order. https://t.co/bJNk0CG6Zh
+AMAZONHELP: @380611 credited to your account by January 17, 2018. You may find more info on this here: https://t.co/xMQxfsQGe8. (2/3) ^ST
+
+--- component 991446 ---
+CUSTOMER: @115850 I am not able to cancel my order and even customer care is not taking calls  
+Pathetic service.....
+order - 171-0257524-0179556
+AMAZONHELP: @379409 Sorry to know you're having trouble reaching us. You can connect with us via chat or email here: https://t.co/R3EfhzgU8B. 1/2 ^PS
+
+--- component 68951 ---
+CUSTOMER: @AmazonHelp  - dear Amazon help - HELP! I'm dealing with Amazon for more than over a week now trying to cancel my order that has been partially paid with a giftcard and partially with a creditcard, but Amazon does not accept the creditcard payment 1/2
+AMAZONHELP: @135293 I'm sorry you're having trouble with your account. Which Amazon account are you using? (https://t.co/nUUp5MLhYl, Amazon.de, Amazon.UK, etc.)
+
+--- component 1237426 ---
+CUSTOMER: Massively let down by @115830 ended up having to cancel order and buy from somewhere else. Bloody inconvenient and totally wasted my time
+AMAZONHELP: @438016 Hey Emma, without giving any personal info, can you tell us what happened?^MA
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: device_app_issue  (matches: 2380, 2.89% of first messages) =====
+
+--- component 1142092 ---
+CUSTOMER: Cmprei 1 livro e recbi 1 Kindle. Será q a Amzon tá sob adm. Correios? @117634 @117086 @1141 @115821
+AMAZONHELP: @415657 Oi Antonio, nós não temos acesso à sua conta através do Twitter. Você já contatou ao SAC? ^VL
+
+--- component 1800957 ---
+CUSTOMER: Vai ter promoção do Kindle @117086 ???
+AMAZONHELP: @580455 Pelo momento não temos essas informações, qualquer novidade será anunciada no nosso site, sugiro ficar de olho. ^AZ
+
+--- component 2250451 ---
+CUSTOMER: Hi @115821  I’m moving to Ireland from the USA and I want to bring my Alexa.... is there a way I can change my plug to a European outlet or.... not really? Thanks! I love Alexa!
+AMAZONHELP: @675721 Great question! We want you to be able to enjoy your Alexa anywhere you go. You do have an option to purchase an adapter. I was able to find one that I think will work for you here: https://t.co/iIi65sC5by. Hope this helps! ^AL
+
+--- component 886552 ---
+CUSTOMER: @AmazonHelp I would like to know if I can get 5.1 content with Fire TV stick.?
+AMAZONHELP: @353503 Hi - are you referring to 5.1 Audio? If so, yes. Pls see : https://t.co/WVokgxvwlx  ^TD
+
+--- component 719166 ---
+CUSTOMER: HELLO @118101  I've paid £30 to top up  kindle and it's still not working
+AMAZONHELP: @311607 Just to clarify, were you trying to add points to top up on a game? ^VS
+
+--- component 1424583 ---
+CUSTOMER: @7108 hi. Can I ask how my moms kindle lost her 25$ gift card balance? Is there a way to track?
+AMAZONHELP: @483723 We'd love to help! You're able to track your gift card balance and activity here: https://t.co/Clg2dH7LHV ^KP
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: customer_service_complaint  (matches: 510, 0.62% of first messages) =====
+
+--- component 1863546 ---
+CUSTOMER: @AmazonHelp your customer service is unhelpful.I've now spent over two hours talking to your reps &amp; have not received what I have asked for.
+AMAZONHELP: @597349 That's not what we like to hear at all, Khelan! W/o any personal details, could you give us some more info on the situation? ^BL
+
+--- component 2513807 ---
+CUSTOMER: Terrible customer service from @115830 advisors not listening, and rude ‘supervisor’ who then hung up. Not impressed!!
+AMAZONHELP: @754804 I'm sorry for the poor experience. Without including any account details, can you tell us more about what's happened? We'd like to help! ^ZW
+
+--- component 1467765 ---
+CUSTOMER: Just received the worst customer service ever from @115821. Shocked and stunned. #badcustomerservice
+AMAZONHELP: @494806 I'm so sorry for the poor experience. This is not the experience we want our customers to have. We'd love to help you. Without giving us any personal account information, can you tell us more about what you originally contacted us about? ^AY
+
+--- component 73877 ---
+CUSTOMER: @115821 has the worst customer service
+AMAZONHELP: @136745 Oh no! I'm sorry to hear that. Is there something we can assist with? ^DY
+
+--- component 2289296 ---
+CUSTOMER: @115821 has the worst customer service. Useless and they dont keep their word on what they will do when they fuck up. Ive been paying $10 a month for almost 3 years to get fucked over? Guess ill have to take my business elsewhere.
+AMAZONHELP: @703119 This is not what we strive for. I am so sorry you had a horrible experience. We would love to help. Could you please provide additional info on the issue you are facing without providing personal/account info? ^BA
+
+--- component 2209223 ---
+CUSTOMER: @AmazonHelp still waiting on that package due last Friday....😑  terrible service.  Good to know your shipping department is on top of things. https://t.co/2MHGp7LMoQ
+AMAZONHELP: @684467 I'm sorry for the frustration! What is the current tracking information showing: https://t.co/Y5jpI9gRhE? ^DG
+/home/claude/resolv/scripts/inspect_topic_examples.py:43: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = first_msgs[first_msgs["text"].str.contains(rx, na=False)]
+
+
+===== GROUP: email_contact  (matches: 2343, 2.85% of first messages) =====
+
+--- component 6155 ---
+CUSTOMER: @AmazonHelp It looks as though someone has changed the email address linked to my acct &amp; I can no longer log in. Help!
+AMAZONHELP: @117632 We're here to help! Please, reach us phone or e-mail so we can investigate: https://t.co/jzvkhdlrK5 ^EB
+
+--- component 1021053 ---
+CUSTOMER: @115821 you guys really let someone change my email on my amazon account!!! What is your customer service number??
+AMAZONHELP: @386434 Hi, please reach out to us here: https://t.co/hApLpMlfHN we can help ^AS
+
+--- component 1638027 ---
+CUSTOMER: @115821 @AmazonHelp do y’all have a customer service email?
+AMAZONHELP: @538168 Hi there! Please use the following link to contact our customer support team and select 'e-mail': https://t.co/hApLpMlfHN ^WM
+
+--- component 2600250 ---
+CUSTOMER: @AmazonHelp Dear  I have problems when entering my account at every moment it indicates  that I have a password error to whom I can send an email to support  thanks
+AMAZONHELP: @774756 Hello, Paul. Have you tried to reset the password selecting the option "Olvidaste tu contraseña"? ^DB
+
+--- component 2329790 ---
+CUSTOMER: @AmazonHelp @115850 @115850 #Amazon. What is there on email? Somebody escalated.Wait for some more time. I am fed up with this reply.No point in waiting (1/2)
+AMAZONHELP: @383106 We don't have access to your Amazon account info via Twitter. Please write back to (1/2)^SQ
+
+--- component 1518455 ---
+CUSTOMER: To whoever hacked my Amazon account and changed the email.... I look forward to seeing what you can buy with the $0.64 in my bank account.😏😂
+AMAZONHELP: @507681 Hi Ricky, have you been in touch with us about your account? Have you received an email from an account specialist? ^TS

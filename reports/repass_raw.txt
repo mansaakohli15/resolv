@@ -1,0 +1,130 @@
+==================== Q1: Delivery Delay vs Order Tracking ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:45: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  delay_mask = text.str.contains(delay_rx, na=False)
+/home/claude/resolv/scripts/repass_intent_analysis.py:46: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  tracking_mask = text.str.contains(tracking_rx, na=False)
+delay-pattern matches: 1764
+tracking-pattern matches: 265
+overlap (both patterns): 17
+
+Delay-only examples: 1747 (2.12% of 82246)
+   [212357] @AmazonHelp still waiting for a parcel to arrive, what time do you deliver till?
+   [1247105] @115821 I have been home all day, why did I get a notice that delivery failed.
+   [1737240] @115850 The expected day of delivery was 16th of October. I've not received the order yet, nor am I able to track down the same
+   [2190135] @AmazonHelp are you guys having issues with password resets? I needed to reset my password but I’m not receiving any code sent to my email. Tried multiple devices and haven’t received anything.
+
+Tracking-only examples: 248 (0.30% of 82246)
+   [144001] Hey @115821 @AmazonHelp where did the tracking number go?? I want to see the tracking # like it used to always be. #Amazon #Tracking https://t.co/Tle9dUfwkR
+   [465554] @12339 @215765 
+Tracking Number# 5180793475130
+May I know why is the item from @115850  rescheduled without my consent??
+   [1293430] Hey @115850 where is my order!! Is it coming from Mars? Kindly Update Please😏 
+THANKYOU 🙏 https://t.co/k5t4ikCVDw
+   [540591] @643 My Amazon order, carried by you, has not turned up. My app told me it had been delivered on 17/11/17. Can you solve this mystery for me as Amazon can not because it's down to carrier. I'll be happy to DM you the tracking number. Thanks in advance.
+
+==================== Q2: Prime / billing / info / cancellation ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:63: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  prime_charge_mask = text.str.contains(prime_charge_rx, na=False)
+/home/claude/resolv/scripts/repass_intent_analysis.py:65: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  order_cancel_mask = text.str.contains(order_cancel_rx, na=False)
+any 'prime' mention: 9139
+prime+charge/billed/renew pattern: 348
+prime+cancel pattern: 354
+overlap charge&cancel: 33
+prime mention, no charge/cancel pattern (residual 'info/other'): 8489
+order-cancel pattern (broad): 524
+order-cancel that also mentions prime: 32
+
+Prime charge examples: 348 (0.42% of 82246)
+   [2138364] @115821 how does one get charged for a prime subscription if their card isn’t even linked to the account??
+   [247607] @115821   I was surprised to see that amazon prime charged fee when I am not a member. Amzn shows profit like this ?Pathetic.
+   [2303172] amazon are cheeky bastards I never signed up to prime yet Im being charged for it?! are you fucking joking, ragingg
+   [2450291] Hey, @115821, how about you not charge me $400 for the Prime Wardrobe items bc @115817 is slow? Also, your service rep sounds drunk.
+
+Prime cancel examples: 354 (0.43% of 82246)
+   [1559911] dearest @AmazonHelp if you can't get your shit together I will cancel prime. this is the third late shipment THIS MONTH
+   [2564735] Cheers @115830 for trying to take money out my account even though I cancelled my prime to get another bank charge and I’m not paid till the 22nd, a WONDERFUL way to start my 3 days off #stressed
+   [472317] Amazon customer service UK is an absolute JOKE! After an hour on the phone to them they have messed up my order twice and 'accidently' cancelled my prime membership!!
+   [218345] Won't be ordering from Amazon again+cancelling prime seeing as my parcel I needed to be here on time isn't😠 #Amazon
+
+Prime residual ('info/other') examples: 8489 (10.32% of 82246)
+   [1595112] @115821 I will forever be a customer. My wedding is Saturday and this prime membership is coming all the way through! ❤️❤️❤️ #loveamazon
+   [1857200] @AmazonHelp hi I ordered a delivery from amazon prime now and my order was unable to delivered but no delivery was attempted ? Any reason
+   [2620753] @AmazonHelp I placed a prime order on 19/11 it didn’t arrive 20/11 at my work address got an attempted delivery message at 2030h contacted cust care the guaranteed it’d arrive today. It hasn’t. Just got an attempted delivery note at 2045h. Such a pain. Why am I paying for prime?
+   [1966176] @AmazonHelp Hey, can i use https://t.co/7tLOQL6UI1 to pay for amazon prime? Cant seem to get the option to show up.  i can use it for orders
+
+Order cancel (broad) examples: 492 (0.60% of 82246)
+   [346216] @115850 #doing_fraud in refund. You can't give back refund and cancel order without permission.
+   [332274] @115850 order :407-5264538-1697154
+i haven't ordered anything this year,
+But u canceled my order as i crossed d limit, what d hell is dis?
+   [548288] @117093 @115821 @AmazonHelp Why was my thanksgiving grocery order canceled?????
+   [2747274] @AmazonHelp Got an email from seller re; my Amazon order placed 2 days ago. They now say they don't have the item &amp; want ME to cancel the order on MY end so it doesn't affect their rating &amp; they will refund me. Feedback on site says another asked to do the same. HELP?
+
+==================== Q3: Refund vs Return ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:85: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  return_mask = text.str.contains(return_rx, na=False)
+refund pattern: 2316
+return/damaged/wrong-item pattern: 3437
+overlap: 502 (21.7% of refund matches also match return)
+
+Refund-only examples: 1814 (2.21% of 82246)
+   [722920] Hey amazon no refund of 8k till now not received. What’s wrong with your Startup. Are you interested in paying my refund ?
+   [2531805] @115830 it is a shame that I cannot use my account with Christmas coming up and we still have not had a full refund. My account has been hacked again! Can you help?
+   [542525] @115850 why u take order if u r unable to refund the material. https://t.co/ZykX6sOj2W
+   [404714] @AmazonHelp took 9 minutes for a customer service rep to tell me i'm not receiving a refund on my one-day shipping even though i haven't received an item. #brokensystem.
+
+Return-only examples: 2935 (3.57% of 82246)
+   [30299] @AmazonHelp I’m requested a courier pick up a package to return it yesterday and nobody’s turned up to pick it up yet
+   [1669638] Hmm... Would this be a call to @115821 customer service to return or a @38602 manufacturing defect?  Can you spot the flaw? https://t.co/yhnOq7iblt
+   [1957988] @149473 @115850
+Trying to return an order since one month. Resolve this issue please. https://t.co/YUWUheYVPq
+   [656776] @14939 This is the first copy of the new book I purchased as a gift from @115821 @AmazonHelp. I returned it. https://t.co/3PvRVijcBR
+
+Both refund+return examples: 502 (0.61% of 82246)
+   [804752] @115850 no replacement no refund, wrong info by customer care. Is someone there to look into this?
+   [929018] @115850 Another https://t.co/cMMB0Jtjei the replacement of Ajanta Clock in broken condition- with dislocated arms. Want refund this time..
+   [2371604] How'll I get refund of my order when replacement order is cancelled by @115850  and says u'll get refund 🙂
+   [1307707] @115850 @AmazonHelp if courier is not delivered to me than why I wait for refund. I am not returning product . So refund my money immediately https://t.co/uA1JniJWvb
+
+==================== Q4: Address / delivery redirect ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:101: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  address_mask = text.str.contains(address_rx, na=False)
+
+Address examples: 155 (0.19% of 82246)
+   [2367198] @116324 You failed to deliver an @115830 parcel yesterday but I was in all day and no calling card was left. I think you went to the wrong address. How do I make sure you come to the right place today? I need this parcel.
+   [59567] @AmazonHelp good morning the delivery driver has delivered to wrong address and don’t know where he’s delivered too . Please help
+   [343725] Extremely frustrated with @118706 and @115821. The former is trying AGAIN to deliver a package to the wrong address.
+   [2633470] I contacted @AmazonHelp in regards to AMZL US constantly delivering my packages to the wrong address &amp; the response they sent me was basically "I see that your package was marked as delivered today. I hope you found it!"
+   [269686] @AmazonHelp I would love to know why I’m paying for @115821 prime when items randomly don’t ship and/or get delivered to wrong addresses.
+   [913418] @117093 Now they're telling me it was delivered to the wrong address. I order from Amazon all the time, and try fresh, and nothing!
+
+==================== Q5: Multilingual content (heuristic) ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:109: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  non_en_mask = text.str.contains(es_pt_fr_rx, na=False)
+non-English marker matches: 6318 (7.68%) -- heuristic, approximate
+
+==================== Q6: Multi-intent overlap across core groups ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:122: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  hit_counts = pd.DataFrame({k: text.str.contains(v, na=False) for k, v in core_patterns.items()}).sum(axis=1)
+messages matching >=2 core patterns simultaneously: 877 (1.07%)
+   [528586] @115850 I ordered skullcandy wireless jib from amazon and it went out...not even after more than 2 hours usage. And ur service is so bad I applied for replacement but even today I haven’t got even a single message and u people say there’s an technical error. Now I want refund.
+   [929018] @115850 Another https://t.co/cMMB0Jtjei the replacement of Ajanta Clock in broken condition- with dislocated arms. Want refund this time..
+   [2296069] @115850 highly disappointed with your product quality and service. After request accepted why dont give me  replacement or  refund??
+   [979853] amazon showing order status delievered from past 3 days but still waiting to get my order amazon sucks @AmazonHelp
+   [1930338] @AmazonHelp A whole month waiting 4 credit back 4 a returned faulty gift. Numerous contacts, 2 hours chatting online with advisors, promises of resolution never fulfilled. Supervisors don't care. Latest was promise of contact in 24h, still waiting. You don´t honour your own T&amp;C.
+
+==================== Q7: Generic complaints ride on other intents? ====================
+/home/claude/resolv/scripts/repass_intent_analysis.py:131: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  generic_mask = text.str.contains(generic_rx, na=False)
+/home/claude/resolv/scripts/repass_intent_analysis.py:132: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  core_mask = pd.DataFrame({k: text.str.contains(v, na=False) for k, v in core_patterns.items()}).any(axis=1)
+generic-complaint matches: 810
+of those, also matching a core intent pattern: 125 (15.4%)
+
+Generic-complaint-only (no other core pattern) examples: 685 (0.83% of 82246)
+   [2274758] @115821’s customer service was just completely useless and unhelpful. I’ve never experienced that before. I guess nobody’s perfect.
+   [1013578] @115830 Pathetic Service. DO not use these cowboys. Take your money and do not provide. Crooks!!!
+   [2662527] @115821 ever since I've become a prime member, my orders have started arriving late! Reached out to @116090 customer service but they were very unhelpful, basically told me to deal with it. Not my idea of customer service... :(
+   [572899] @115851 Shame on Amazon India .Pathetic service from Amazon to avoid at all cost and informing people not to buy any imported items from Amazon India 
+Order ID 407-2793143-3561942

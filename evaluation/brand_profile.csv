@@ -1,0 +1,11 @@
+brand,n_conversation_components,n_customer_tweets,n_brand_replies,pct_conversations_with_brand_response,median_conversation_length,mean_conversation_length,pct_multi_turn_conversations_gt2,n_usable_support_cases,n_customer_messages_total,n_distinct_customer_messages,duplicate_customer_msg_rate_pct,diversity_kmeans_k,diversity_cluster_sample_size,diversity_silhouette_APPROX,diversity_cluster_balance_APPROX,diversity_note
+AmazonHelp,82556,203598,169840,100.0,3.0,4.531,62.09,82556,203598,196371,3.55,8,3000,0.0192,0.495,
+AppleSupport,80717,131764,106860,100.0,2.0,2.96,34.87,80717,131764,126351,4.11,8,3000,0.018,0.5333,
+Uber_Support,41923,72154,56270,100.0,2.0,3.066,35.99,41923,72154,69348,3.89,8,3000,0.0161,0.499,
+SpotifyCares,28280,48543,43265,99.99,2.0,3.249,37.13,28277,48543,46649,3.9,8,3000,0.0227,0.4497,
+AmericanAir,26386,50054,36764,100.0,2.0,3.319,43.88,26386,50054,49062,1.98,8,3000,0.0136,0.4467,
+Delta,26168,45296,42253,99.99,2.0,3.363,42.6,26166,45296,43976,2.91,8,3000,0.0144,0.4143,
+comcastcares,24063,39579,33031,100.0,2.0,3.036,36.55,24063,39579,38115,3.7,8,3000,0.016,0.4357,
+TMobileHelp,22820,47158,34317,100.0,2.0,3.625,37.8,22820,47158,45325,3.89,8,3000,0.0173,0.3953,
+SouthwestAir,21636,35370,28977,99.99,2.0,2.992,33.42,21634,35370,34575,2.25,8,3000,0.0143,0.5257,
+Ask_Spectrum,18532,33252,25860,99.99,2.0,3.218,35.4,18531,33252,32273,2.94,8,3000,0.0175,0.4927,

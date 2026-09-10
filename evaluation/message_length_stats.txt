@@ -1,0 +1,12 @@
+Word-count stats for first customer message per AmazonHelp conversation:
+count    82246.000000
+mean        18.988376
+std         10.761706
+min          0.000000
+10%          4.000000
+25%         12.000000
+50%         19.000000
+75%         24.000000
+90%         33.000000
+95%         41.000000
+max         61.000000

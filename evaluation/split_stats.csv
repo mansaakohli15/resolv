@@ -1,0 +1,5 @@
+split,account_access_security,address_redirect,delivery_issue,non_english_out_of_scope,order_cancellation,prime_billing_cancellation,refund_request,return_wrong_damaged,unauthorized_nonprime_charge,unmatched_other
+out_of_scope_non_english,0,0,0,6318,0,0,0,0,0,0
+test,67,14,1769,0,52,53,167,340,36,5095
+train_retrieval,542,114,14149,0,410,425,1336,2717,286,40763
+validation,68,15,1768,0,51,53,167,340,35,5096

@@ -1,0 +1,117 @@
+=============== 1. Account Access / Security ===============
+/home/claude/resolv/scripts/verify_remaining_intents.py:48: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  account_mask = text.str.contains(account_rx, na=False)
+
+Account Access/Security matches: 687 (0.84% of 82246)
+
+  [2303239] CUSTOMER: I got an unsolicited email from @115821 saying I signed up for a free trial of #AmazonPrime. It freaked me out so I instictively changed my password. I'm worried someone gained access to my account.
+       AMAZONHELP: @615231 Hi, Daniel! Your account security is our top priority. If you aren't sure if the email you received came from Amazon, please use this handy guide: https://t.co/maWvFya0mZ  And please reach out if you need further assistance!  ^SP
+
+  [2108827] CUSTOMER: Hi @115850 i was asked to change my password on App .is something fishy ?
+       AMAZONHELP: @199058 Is this a notification on app or a human request? ^MJ
+
+  [388148] CUSTOMER: @115830 disappointed that Amazon could not as they stated will get back to you within 24 hours, about an attempted hack on my amazon account. Obviously they couldn't care less about you. Perhaps next time you promise something you keep otherwise you just become a liar
+       AMAZONHELP: @219979 Hello! I know this situation is stressful, let's make sure this is being handled. Have you checked your spam and junk folders? Sometimes the e-mails get filtered there. Let us know if you still don't see any messages! ^DA
+
+  [1974486] CUSTOMER: @AmazonHelp my recent order has been put on hold, and my account locked. The email says to log into my account but it's locked. So how might one do what you've asked? https://t.co/kC0EsFY9Y9
+       AMAZONHELP: @627162 We'd like to see how we can help so please reach out to us here: https://t.co/jzvkhdlrK5 ^DD
+
+  [1592087] CUSTOMER: @AmazonHelp PUTRID CustSupp! My acct hacked on 30Oct, have been infrming u, NO ACTION FROM UR SIDE... PATHETIC guys!
+       AMAZONHELP: @525275 That doesn't happen usually. We’d like to look into the issue and help you out. 1/2 ^RI
+
+  [1283071] CUSTOMER: @115821 is horrible with customer service!! Someone hacks my account and I can’t get any help!!
+       AMAZONHELP: @448717 I'm sorry for the frustration! When you contacted us what information and options did we provide? ^LR
+
+  [750380] CUSTOMER: @AmazonHelp hi, someone tried to login my account and manage to hack, and leave customer review by using my account.
+       AMAZONHELP: @319489 Sorry to hear this. Please reach out here so we can look into this for you https://t.co/zH8UlhTGcc ^KM
+
+  [565584] CUSTOMER: @AmazonHelp my account was hacked. Saturday you told me nothing could be done.
+       AMAZONHELP: @271089 I'm so sorry to hear about this! We put a hold on the account to prevent any unauthorized activity. This is for your security. Have you received any e-mail response from our Account Specialists? ^JS
+
+  [752479] CUSTOMER: @AmazonHelp hi I've been locked out of my account, can you help? I've called a couple of times but no help.
+       AMAZONHELP: @319985 Sorry to hear this - did we advise that it's with the Account Specialist Team ? ^TD
+
+  [1756882] CUSTOMER: Any reason I can't login to my @144771 account, @115821?
+       AMAZONHELP: @569288 I'm sorry for the trouble! Are you able to sign into your Amazon account on https://t.co/nUUp5MLhYl? ^JP
+
+overlap with refund pattern: 8
+overlap with 'prime': 36
+
+=============== 2. Device / App Technical Issue ===============
+/home/claude/resolv/scripts/verify_remaining_intents.py:62: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  device_mask = text.str.contains(device_rx, na=False)
+
+Device/App Technical Issue matches: 60 (0.07% of 82246)
+
+  [1679832] CUSTOMER: @116439 can you help? My firestick won't connect to wifi. 1000% sure I'm using the correct wifi password. Unplugged for 30 seconds + 2x as well and still no luck
+       AMAZONHELP: @549705 We'd love to help! Let's try the troubleshooting tips here: https://t.co/ainOOagcaE! ^SH
+
+  [841496] CUSTOMER: @115850 https://t.co/Oszoc0SIq1 website down? Suddenly movie streaming stopped.
+       AMAZONHELP: @342202 We cross-checked but couldn't spot a lag. Did you check with your internet connection strength ? . ^CB
+
+  [2112929] CUSTOMER: @115833 Need help! Alexa won’t sync my number with her. Was a gift, and that’s why I end up not even using half the services it offers!😩 https://t.co/uzvXVMrKHM
+       AMAZONHELP: @661305 I understand your concern regarding Alexa. Kindly contact us here: https://t.co/rS49hgaADF and we'll assist you accordingly. ^VH
+
+  [2034076] CUSTOMER: Hay @AmazonHelp &amp; @118797 please learn to code better before you release your "twitch prime" services. Your garbage website is broken. https://t.co/qNgKwChydS
+       AMAZONHELP: @641695 Oh no! I'm so sorry! We'd like to look into this with you. Please reach us here: https://t.co/hApLpMlfHN ^AG
+
+  [643345] CUSTOMER: Why tf my fire tv not working 😤😤
+       AMAZONHELP: @292498 We'd like to help! Can you tell me a bit more about the issue with the device? ^GG
+
+  [1894398] CUSTOMER: Amazon Video app not working on my Roku like seriously @116618
+       AMAZONHELP: @606171 We're sorry for the trouble! Could you provide us with a few details about the issue you're having with the app? ^WM
+
+  [303058] CUSTOMER: Seriously annoyed my @115821 Fire Stick won't launch @116602... how am I supposed to binge watch tv?! https://t.co/ZQy04cIL9l
+       AMAZONHELP: @198625 I'm so sorry Netflix isn't launching! Try removing the app, restarting your Fire TV Stick, then reinstalling. Let us know!^AM
+
+  [2206666] CUSTOMER: Why is my fire stick not workingggg
+       AMAZONHELP: @683856 I'm sorry for this issue with your Fire TV Stick. Have you tried restarting it and your network by unplugging them from power? ^DO
+
+  [89995] CUSTOMER: Since @115830 did their site update a few weeks ago my #Kindle won't sort. Just gets stuck on this screen, sometimes it reboots, bit it won't sort. So annoying as I can no longer see which Kindle books on my wish list are on offer without manually traw… https://t.co/dti8Zan2g5 https://t.co/4Na22uXmWL
+       AMAZONHELP: @141430 That's very odd, Claire. Are you using the browser on your Kindle or going through the app? We'd be happy to help! ^SK
+
+  [2331127] CUSTOMER: @AmazonHelp my Alexa stopped working today. No power. We tried other outlets, tried adjusting power input. nada. No light. Nothing. Help?
+       AMAZONHELP: @712664 I'm sorry to hear this, Natalia! Please reach out to us here for real-time troubleshooting: https://t.co/hApLpMlfHN ^BH
+
+overlap with prime pattern: 3
+
+=============== 3. Unauthorized / Non-Prime Charge ===============
+/home/claude/resolv/scripts/verify_remaining_intents.py:72: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  charge_mask = text.str.contains(charge_rx, na=False)
+charge pattern (all): 360
+charge pattern, prime-mentioning (excluded, already covered by Prime Billing intent): 157
+
+Unauthorized/Non-Prime Charge matches (prime mentions excluded): 203 (0.25% of 82246)
+
+  [2447044] CUSTOMER: @115851 Nice profit to Amazon on my last order. Amazon charged me $54.50 (non-priority mailing). This included $26 for the product and 24.90 for shipping. The invoice stated $14.49 for the item. Way to go Jeff!
+       AMAZONHELP: @739517 Oh my! I'm sorry for any frustration this has caused. We'd like to look into this for you. Please reach out to us when you have a moment: https://t.co/hApLpMlfHN. ^AL
+
+  [538453] CUSTOMER: So @115821 charged me twice for my new processor. That’s toxic af
+       AMAZONHELP: @263829 Without providing us any personal information would you be able to elaborate a bit further on the issue? ^SM
+
+  [2274751] CUSTOMER: My card was charged $50 from https://t.co/kVQefQV5B4.  I can't find any orders in my email or account...
+       AMAZONHELP: @699730 Hi, we're unable to see your account details via Twitter. Pls contact https://t.co/st4oU5QbhP customer service at the following link: https://t.co/J6YEizo6qC ^YM
+
+  [2672123] CUSTOMER: Really @115821 @AmazonHelp . Are you really going to charged me twice for my order? After claiming that my payment was "Declined" even though the payment was already deducted from my account and cleared my bank?
+       AMAZONHELP: @791484 I'm sorry for the second unexpected charge! We don't have access to your account via Twitter! Have you had a chance to reach out to our Customer Support team: https://t.co/hApLpMlfHN? ^ME
+
+  [305119] CUSTOMER: @AmazonHelp Can I get some help?  I was just charged a second time for an order I've already been charged for.  Order# 114-1869061-1133048
+       AMAZONHELP: @199092 Can you contact us here: https://t.co/JzP7hlA23B? ^MC
+
+  [895279] CUSTOMER: Amazon has charged me for an MP3 &amp; vinyl version of flower boy 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️
+       AMAZONHELP: @355522 Uh oh! Were you not expecting these charges? ^LB
+
+  [2049677] CUSTOMER: @115850 Amazon has deducted money for https://t.co/D33W08AOfG n says cnt watch movies due to geo restrictions. Hw can I get refund
+       AMAZONHELP: @645653 For clarification, were you charged for Prime on .com, or .in website? Let us know so we can get you best possible help! ^KN
+
+  [904938] CUSTOMER: @115851 Hello! My husband purchased a camera for my son on @115821 and we were charged twice for it. We called last night and the charge went from pending to processed... twice. How can we fix this, please? Thanks!
+       AMAZONHELP: @357901 Hi. What was advised when in touch? Can you see only one order placed on your account? Are the charges identical?^TP
+
+  [2443998] CUSTOMER: @115830 trying to raise a support call as have been charged for something not delivered.No what of doing it on website, please advise.
+       AMAZONHELP: @738807 I'm sorry for the troubles! We're here to help any way we can! Just to clarify, are you seeing a description of what the charge is? If you prefer, you can reach out to us here: https://t.co/JzP7hlA23B. ^AL
+
+  [1332267] CUSTOMER: @7108 hello, I got a three month trial with EE and I’m worried I’ve been charged for a book? Can you help.
+       AMAZONHELP: @460617 We'd like to help look into this for you. Please reach out to us by phone at this link here: https://t.co/JzP7hlA23B ^VS
+
+overlap with refund pattern: 17
+overlap with account pattern: 1
