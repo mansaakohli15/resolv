@@ -1,0 +1,23 @@
+{
+  "golden_set_total": 196,
+  "in_scope_count": 157,
+  "intent_accuracy": 0.7962,
+  "intent_macro_f1": 0.796,
+  "intent_weighted_f1": 0.7959,
+  "auto_handle_rate_pct": 57.14,
+  "escalation_rate_pct": 42.86,
+  "escalation_safety_recall": 0.7403,
+  "escalation_precision": 0.6786,
+  "escalation_f1": 0.7081,
+  "mean_judge_score_out_of_30": 25.36,
+  "judge_factual_safety_pass_rate_pct": 100.0,
+  "judge_agreement": {
+    "sample_size": 40,
+    "exact_agreement_pct": 5.0,
+    "agreement_within_plus_minus_1_pct": 35.0,
+    "agreement_within_plus_minus_2_pct": 57.5,
+    "mean_absolute_error": 2.35,
+    "pearson_correlation": 0.4027,
+    "spearman_correlation": 0.3811
+  }
+}

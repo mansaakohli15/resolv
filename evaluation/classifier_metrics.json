@@ -1,0 +1,419 @@
+{
+  "train_samples": 19979,
+  "validation_samples": 2497,
+  "golden_samples_total": 196,
+  "golden_in_scope_count": 157,
+  "training_duration_seconds": 46.54,
+  "validation_metrics": {
+    "baseline_1_majority": {
+      "accuracy": 0.708,
+      "macro_f1": 0.1036,
+      "weighted_f1": 0.587,
+      "macro_precision": 0.0885,
+      "macro_recall": 0.125,
+      "per_class": {
+        "Delivery Issue": {
+          "precision": 0.708,
+          "recall": 1.0,
+          "f1": 0.8291,
+          "support": 1768
+        },
+        "Address / Delivery Redirect Issue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 15
+        },
+        "Refund Request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 167
+        },
+        "Return / Wrong or Damaged Item": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 340
+        },
+        "Prime Membership Billing/Cancellation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 53
+        },
+        "Order Cancellation Request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 51
+        },
+        "Account Access / Security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 68
+        },
+        "Unauthorized / Non-Prime Charge": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 35
+        }
+      }
+    },
+    "baseline_2_simple_tfidf": {
+      "accuracy": 0.9608,
+      "macro_f1": 0.827,
+      "weighted_f1": 0.9581,
+      "macro_precision": 0.9148,
+      "macro_recall": 0.7727,
+      "per_class": {
+        "Delivery Issue": {
+          "precision": 0.9682,
+          "recall": 0.9994,
+          "f1": 0.9836,
+          "support": 1768
+        },
+        "Address / Delivery Redirect Issue": {
+          "precision": 1.0,
+          "recall": 0.5333,
+          "f1": 0.6957,
+          "support": 15
+        },
+        "Refund Request": {
+          "precision": 0.904,
+          "recall": 0.9581,
+          "f1": 0.9302,
+          "support": 167
+        },
+        "Return / Wrong or Damaged Item": {
+          "precision": 0.9877,
+          "recall": 0.9441,
+          "f1": 0.9654,
+          "support": 340
+        },
+        "Prime Membership Billing/Cancellation": {
+          "precision": 0.8438,
+          "recall": 0.5094,
+          "f1": 0.6353,
+          "support": 53
+        },
+        "Order Cancellation Request": {
+          "precision": 0.8205,
+          "recall": 0.6275,
+          "f1": 0.7111,
+          "support": 51
+        },
+        "Account Access / Security": {
+          "precision": 1.0,
+          "recall": 0.8382,
+          "f1": 0.912,
+          "support": 68
+        },
+        "Unauthorized / Non-Prime Charge": {
+          "precision": 0.7941,
+          "recall": 0.7714,
+          "f1": 0.7826,
+          "support": 35
+        }
+      }
+    },
+    "main_resolv_model": {
+      "accuracy": 0.9812,
+      "macro_f1": 0.9253,
+      "weighted_f1": 0.981,
+      "macro_precision": 0.9301,
+      "macro_recall": 0.9223,
+      "per_class": {
+        "Delivery Issue": {
+          "precision": 0.9899,
+          "recall": 0.9966,
+          "f1": 0.9932,
+          "support": 1768
+        },
+        "Address / Delivery Redirect Issue": {
+          "precision": 0.8235,
+          "recall": 0.9333,
+          "f1": 0.875,
+          "support": 15
+        },
+        "Refund Request": {
+          "precision": 0.9693,
+          "recall": 0.9461,
+          "f1": 0.9576,
+          "support": 167
+        },
+        "Return / Wrong or Damaged Item": {
+          "precision": 0.9822,
+          "recall": 0.9765,
+          "f1": 0.9794,
+          "support": 340
+        },
+        "Prime Membership Billing/Cancellation": {
+          "precision": 0.9167,
+          "recall": 0.8302,
+          "f1": 0.8713,
+          "support": 53
+        },
+        "Order Cancellation Request": {
+          "precision": 0.8654,
+          "recall": 0.8824,
+          "f1": 0.8738,
+          "support": 51
+        },
+        "Account Access / Security": {
+          "precision": 0.9848,
+          "recall": 0.9559,
+          "f1": 0.9701,
+          "support": 68
+        },
+        "Unauthorized / Non-Prime Charge": {
+          "precision": 0.9091,
+          "recall": 0.8571,
+          "f1": 0.8824,
+          "support": 35
+        }
+      }
+    }
+  },
+  "golden_benchmark_metrics": {
+    "baseline_1_majority": {
+      "in_scope_metrics": {
+        "accuracy": 0.2229,
+        "macro_f1": 0.0456,
+        "weighted_f1": 0.0813,
+        "macro_precision": 0.0279,
+        "macro_recall": 0.125,
+        "per_class": {
+          "Delivery Issue": {
+            "precision": 0.2229,
+            "recall": 1.0,
+            "f1": 0.3646,
+            "support": 35
+          },
+          "Address / Delivery Redirect Issue": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 15
+          },
+          "Refund Request": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 19
+          },
+          "Return / Wrong or Damaged Item": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 21
+          },
+          "Prime Membership Billing/Cancellation": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 21
+          },
+          "Order Cancellation Request": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 15
+          },
+          "Account Access / Security": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 16
+          },
+          "Unauthorized / Non-Prime Charge": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 15
+          }
+        }
+      },
+      "difficulty_breakdown": {
+        "Easy": {
+          "count": 85,
+          "accuracy": 0.1647,
+          "macro_f1": 0.0354
+        },
+        "Medium": {
+          "count": 61,
+          "accuracy": 0.3279,
+          "macro_f1": 0.0617
+        },
+        "Hard": {
+          "count": 11,
+          "accuracy": 0.0909,
+          "macro_f1": 0.0238
+        }
+      },
+      "total_golden_examples": 196,
+      "in_scope_count": 157,
+      "out_of_scope_count": 39
+    },
+    "baseline_2_simple_tfidf": {
+      "in_scope_metrics": {
+        "accuracy": 0.7134,
+        "macro_f1": 0.7109,
+        "weighted_f1": 0.7152,
+        "macro_precision": 0.8093,
+        "macro_recall": 0.677,
+        "per_class": {
+          "Delivery Issue": {
+            "precision": 0.5323,
+            "recall": 0.9429,
+            "f1": 0.6804,
+            "support": 35
+          },
+          "Address / Delivery Redirect Issue": {
+            "precision": 0.8333,
+            "recall": 0.3333,
+            "f1": 0.4762,
+            "support": 15
+          },
+          "Refund Request": {
+            "precision": 0.8824,
+            "recall": 0.7895,
+            "f1": 0.8333,
+            "support": 19
+          },
+          "Return / Wrong or Damaged Item": {
+            "precision": 1.0,
+            "recall": 0.7619,
+            "f1": 0.8649,
+            "support": 21
+          },
+          "Prime Membership Billing/Cancellation": {
+            "precision": 0.8,
+            "recall": 0.5714,
+            "f1": 0.6667,
+            "support": 21
+          },
+          "Order Cancellation Request": {
+            "precision": 0.9,
+            "recall": 0.6,
+            "f1": 0.72,
+            "support": 15
+          },
+          "Account Access / Security": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571,
+            "support": 16
+          },
+          "Unauthorized / Non-Prime Charge": {
+            "precision": 0.5263,
+            "recall": 0.6667,
+            "f1": 0.5882,
+            "support": 15
+          }
+        }
+      },
+      "difficulty_breakdown": {
+        "Easy": {
+          "count": 85,
+          "accuracy": 0.7529,
+          "macro_f1": 0.7663
+        },
+        "Medium": {
+          "count": 61,
+          "accuracy": 0.7213,
+          "macro_f1": 0.7059
+        },
+        "Hard": {
+          "count": 11,
+          "accuracy": 0.3636,
+          "macro_f1": 0.2571
+        }
+      },
+      "total_golden_examples": 196,
+      "in_scope_count": 157,
+      "out_of_scope_count": 39
+    },
+    "main_resolv_model": {
+      "in_scope_metrics": {
+        "accuracy": 0.7962,
+        "macro_f1": 0.796,
+        "weighted_f1": 0.7959,
+        "macro_precision": 0.825,
+        "macro_recall": 0.7915,
+        "per_class": {
+          "Delivery Issue": {
+            "precision": 0.7442,
+            "recall": 0.9143,
+            "f1": 0.8205,
+            "support": 35
+          },
+          "Address / Delivery Redirect Issue": {
+            "precision": 0.9167,
+            "recall": 0.7333,
+            "f1": 0.8148,
+            "support": 15
+          },
+          "Refund Request": {
+            "precision": 0.8889,
+            "recall": 0.8421,
+            "f1": 0.8649,
+            "support": 19
+          },
+          "Return / Wrong or Damaged Item": {
+            "precision": 1.0,
+            "recall": 0.7619,
+            "f1": 0.8649,
+            "support": 21
+          },
+          "Prime Membership Billing/Cancellation": {
+            "precision": 0.7143,
+            "recall": 0.4762,
+            "f1": 0.5714,
+            "support": 21
+          },
+          "Order Cancellation Request": {
+            "precision": 0.8571,
+            "recall": 0.8,
+            "f1": 0.8276,
+            "support": 15
+          },
+          "Account Access / Security": {
+            "precision": 0.9375,
+            "recall": 0.9375,
+            "f1": 0.9375,
+            "support": 16
+          },
+          "Unauthorized / Non-Prime Charge": {
+            "precision": 0.5417,
+            "recall": 0.8667,
+            "f1": 0.6667,
+            "support": 15
+          }
+        }
+      },
+      "difficulty_breakdown": {
+        "Easy": {
+          "count": 85,
+          "accuracy": 0.8588,
+          "macro_f1": 0.8684
+        },
+        "Medium": {
+          "count": 61,
+          "accuracy": 0.7869,
+          "macro_f1": 0.7815
+        },
+        "Hard": {
+          "count": 11,
+          "accuracy": 0.3636,
+          "macro_f1": 0.2476
+        }
+      },
+      "total_golden_examples": 196,
+      "in_scope_count": 157,
+      "out_of_scope_count": 39
+    }
+  }
+}

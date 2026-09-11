@@ -1,0 +1,13 @@
+{
+  "corpus_size": 59951,
+  "fit_duration_seconds": 19.83,
+  "golden_benchmark": {
+    "total_queries_evaluated": 157,
+    "recall_at_1": 0.6497,
+    "recall_at_3": 0.879,
+    "recall_at_5": 0.9172,
+    "mrr": 0.7567,
+    "intent_concordance_top1_pct": 64.97,
+    "evidence_sufficiency_pct": 88.54
+  }
+}

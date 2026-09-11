@@ -1,0 +1,9 @@
+,Delivery Issue,Address / Delivery Redirect Issue,Refund Request,Return / Wrong or Damaged Item,Prime Membership Billing/Cancellation,Order Cancellation Request,Account Access / Security,Unauthorized / Non-Prime Charge
+Delivery Issue,32,0,0,0,2,1,0,0
+Address / Delivery Redirect Issue,4,11,0,0,0,0,0,0
+Refund Request,1,0,16,0,1,1,0,0
+Return / Wrong or Damaged Item,4,0,1,16,0,0,0,0
+Prime Membership Billing/Cancellation,0,0,0,0,10,0,0,11
+Order Cancellation Request,2,1,0,0,0,12,0,0
+Account Access / Security,0,0,0,0,1,0,15,0
+Unauthorized / Non-Prime Charge,0,0,1,0,0,0,1,13

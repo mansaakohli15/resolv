@@ -49,6 +49,7 @@ Thumbs.db
 tmp/
 temp/
 
-
-# Large generated dataset artifacts
+# Large generated dataset and index artifacts (>10MB)
 data/processed/amazonhelp_conversations.pkl
+data/processed/intent_classifier.pkl
+data/processed/retrieval_index.pkl

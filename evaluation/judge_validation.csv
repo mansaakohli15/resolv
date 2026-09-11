@@ -1,0 +1,41 @@
+golden_id,difficulty,human_intent,predicted_intent,decision,human_total_score,human_average_score,human_relevance,human_groundedness,human_factual_safety,human_actionability,human_tone,human_conciseness,judge_total_score,judge_average_score,judge_relevance,judge_groundedness,judge_factual_safety,judge_actionability,judge_tone,judge_conciseness
+g0074,Easy,Refund Request,Refund Request,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0140,Easy,Order Cancellation Request,Order Cancellation Request,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0139,Easy,Order Cancellation Request,Order Cancellation Request,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0121,Easy,Prime Membership Billing/Cancellation,Unauthorized / Non-Prime Charge,ESCALATE,27,4.5,3,5,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0106,Easy,Account Access / Security,Account Access / Security,ESCALATE,29,4.83,5,5,5,4,5,5,27,4.5,4,3,5,5,5,5
+g0186,Easy,Unsupported Language,Delivery Issue,ESCALATE,25,4.17,2,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0196,Easy,Unsupported Language,Delivery Issue,ESCALATE,25,4.17,2,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0109,Easy,Account Access / Security,Account Access / Security,ESCALATE,29,4.83,5,5,5,4,5,5,24,4.0,4,3,5,3,5,4
+g0019,Easy,Delivery Issue,Delivery Issue,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,26,4.33,5,3,5,3,5,5
+g0001,Easy,Delivery Issue,Delivery Issue,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,27,4.5,4,3,5,5,5,5
+g0046,Easy,Other / Out of Scope,Delivery Issue,ESCALATE,24,4.0,2,3,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0076,Easy,Refund Request,Refund Request,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,27,4.5,5,3,5,5,5,4
+g0178,Easy,Unauthorized / Non-Prime Charge,Unauthorized / Non-Prime Charge,ESCALATE,29,4.83,5,5,5,4,5,5,27,4.5,4,3,5,5,5,5
+g0188,Easy,Unsupported Language,Delivery Issue,ESCALATE,25,4.17,2,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0160,Easy,Prime Membership Billing/Cancellation,Unauthorized / Non-Prime Charge,ESCALATE,27,4.5,3,5,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0011,Easy,Delivery Issue,Delivery Issue,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,25,4.17,5,3,5,3,4,5
+g0165,Easy,Prime Membership Billing/Cancellation,Prime Membership Billing/Cancellation,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0085,Easy,Return / Wrong or Damaged Item,Return / Wrong or Damaged Item,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,28,4.67,5,3,5,5,5,5
+g0028,Easy,Delivery Issue,Delivery Issue,ESCALATE,27,4.5,5,3,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0067,Easy,Refund Request,Refund Request,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,25,4.17,5,3,5,3,4,5
+g0008,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,25,4.17,5,3,5,3,5,4
+g0144,Medium,Order Cancellation Request,Order Cancellation Request,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,27,4.5,4,3,5,5,5,5
+g0034,Medium,Address / Delivery Redirect Issue,Delivery Issue,AUTO_HANDLE,26,4.33,3,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0002,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,29,4.83,5,4,5,5,5,5,28,4.67,5,3,5,5,5,5
+g0054,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,26,4.33,5,3,5,3,5,5
+g0184,Medium,Unauthorized / Non-Prime Charge,Unauthorized / Non-Prime Charge,ESCALATE,29,4.83,5,5,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0022,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,26,4.33,5,3,5,3,5,5
+g0063,Medium,Refund Request,Refund Request,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0024,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,26,4.33,5,3,5,3,5,5
+g0118,Medium,Prime Membership Billing/Cancellation,Prime Membership Billing/Cancellation,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0150,Medium,Address / Delivery Redirect Issue,Address / Delivery Redirect Issue,AUTO_HANDLE,29,4.83,5,5,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0059,Medium,Unsupported Language,Delivery Issue,ESCALATE,26,4.33,2,5,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0021,Medium,Delivery Issue,Delivery Issue,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0089,Medium,Return / Wrong or Damaged Item,Return / Wrong or Damaged Item,AUTO_HANDLE,28,4.67,5,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0037,Hard,Ambiguous,Delivery Issue,ESCALATE,24,4.0,2,3,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0040,Hard,Ambiguous,Delivery Issue,AUTO_HANDLE,25,4.17,2,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0084,Hard,Ambiguous,Return / Wrong or Damaged Item,AUTO_HANDLE,25,4.17,2,4,5,4,5,5,24,4.0,4,3,5,3,4,5
+g0171,Hard,Unauthorized / Non-Prime Charge,Unauthorized / Non-Prime Charge,ESCALATE,28,4.67,5,4,5,4,5,5,25,4.17,4,3,5,5,4,4
+g0138,Hard,Refund Request,Order Cancellation Request,AUTO_HANDLE,26,4.33,3,4,5,4,5,5,25,4.17,4,3,5,3,5,5
+g0161,Hard,Prime Membership Billing/Cancellation,Unauthorized / Non-Prime Charge,ESCALATE,26,4.33,3,4,5,4,5,5,27,4.5,4,3,5,5,5,5
