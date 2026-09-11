@@ -112,6 +112,10 @@ python run_pipeline.py --message "I was charged twice for an order I never place
 # Start interactive support console
 python run_pipeline.py --interactive
 ```
+<img width="1917" height="1065" alt="image" src="https://github.com/user-attachments/assets/89d7965f-da45-41ac-a703-8e6f224a773a" />
+
+<img width="1917" height="1060" alt="image" src="https://github.com/user-attachments/assets/40b78589-7ad3-4358-9094-a7bbe3868218" />
+
 
 ---
 
